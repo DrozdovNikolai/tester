@@ -1,105 +1,101 @@
 <!DOCTYPE html>
 
 <html lang="ru">
-    <head>
-        <title>Задание 1</title>
-      </head>
-<body>
-<ol>
-    <li><a href="http://example.com">ссылка 1</a></li>
-    <li><a href="https://example.com">ссылка 2</a></li>
-    <li><a href="ftp://example.com/test.png">ссылка 3</a></li>
-    <li><a href="ftp://admin:admin@example.com/test.png">ссылка 4</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Bread#Properties">ссылка 5</a></li>
-    <li><a href="#about">ссылка 6</a> <!-- <p id="about">тест!</p></li>-->
-    <li> <a href = "example.com?parametr1&parametr2"> ссылка 7 </a> </li>
-    <li> <ol> <li>  <a href = "https://example.com/about" title = "О компании" > ссылка 1</a></li>
-        <li> <a href = "https://example.com/service" title = "Услуги" > ссылка 2</a>
-        <li> <a href = "https://example.com/contacts" title = "Контакты" > ссылка 3</a> </li></ol>
-    <li> <a>ссылка 9</a></li>
-    <li> <a href = "" > ссылка 10</a> </li>
-    <li> <a href="https://example.com/" rel="nofollow"> ссылкa 11</a></li>
-    <li> <noindex></noindex><a href="https://example.com"> ссылкa 12</a> </noindex> </li>
-    <li> <p> <a href="https://example.com">ссылка 13</a> </p></li>
-    <li> <a href="https://example.com"> <img src="Test.png" alt="Пример"> </a> </li> 
-    <li> <img src="rect_circle.png" alt="Прямоугольник и круг" usemap="#Navigation"> </li>
-    <li><a href="about">ссылка 16</a></li>
-    <li><a href="about/1">ссылка 17</a></li>
-    <li><a href="../na_uroven_vishe"> ссылка 18 </a> </li>
-    <li><a href="../../na_2urovnya_vishe"> ссылка 18 </a> </li>
-    <li><a href="/" >ссылка 20</a></li>
-    <li><a href="/about">ссылка 21</a></li>
-</ol>
-
-<map name="Navigation">
-    <area shape="rect" coords="70,90,658,265" href="#rect" alt="Ссылка 15.1">
-    <area shape="circle" coords="880,180,105" href="#circle" alt="Ссылка 15.2">
-</map>
-
-<form action="/"
-      method="POST">
-      
-      <label>
-        Имя:<br />
-        <input name="field-name-1"
-          value="" />
-      </label><br />
-
-      <label>
-        E-mail:<br />
-        <input name="field-email"
-          type="email"
-          placeholder="Введите вашу почту" />
-      </label><br />
-
-      <label>
-        Дата рождения:<br />
-        <input name="field-date"
-          value="2022-09-05"
-          type="date" />
-      </label><br />
-
-      Пол:<br />
-      <label><input type="radio" 
-        name="radio-group-1" value="male" />
-        Мужской</label>
-      <label><input type="radio"
-        name="radio-group-1" value="female" />
-        Женский</label><br />
-
-        Количество конечностей:<br />
-      <label><input type="radio" 
-        name="radio-group-2" value="2" />
-        2</label>
-      <label><input type="radio"
-        name="radio-group-2" value="4" />
-        4</label><br />
-
-        <label>
+   <head>
+      <title>Задание 1</title>
+   </head>
+   <body>
+      <ol>
+         <li><a href="http://example.com">ссылка 1</a></li>
+         <li><a href="https://example.com">ссылка 2</a></li>
+         <li><a href="ftp://example.com/test.png">ссылка 3</a></li>
+         <li><a href="ftp://admin:admin@example.com/test.png">ссылка 4</a></li>
+         <li><a href="https://en.wikipedia.org/wiki/Bread#Properties">ссылка 5</a></li>
+         <li>
+            <a href="#about">ссылка 6</a> <!-- <p id="about">тест!</p></li>-->
+         <li> <a href = "example.com?parametr1&parametr2"> ссылка 7 </a> </li>
+         <li>
+            <ol>
+               <li>  <a href = "https://example.com/about" title = "О компании" > ссылка 1</a></li>
+               <li> <a href = "https://example.com/service" title = "Услуги" > ссылка 2</a>
+               <li> <a href = "https://example.com/contacts" title = "Контакты" > ссылка 3</a> </li>
+            </ol>
+         <li> <a>ссылка 9</a></li>
+         <li> <a href = "" > ссылка 10</a> </li>
+         <li> <a href="https://example.com/" rel="nofollow"> ссылкa 11</a></li>
+         <li>
+            <noindex></noindex>
+            <a href="https://example.com"> ссылкa 12</a> </noindex> 
+         </li>
+         <li>
+            <p> <a href="https://example.com">ссылка 13</a> </p>
+         </li>
+         <li> <a href="https://example.com"> <img src="Test.png" alt="Пример"> </a> </li>
+         <li> <img src="rect_circle.png" alt="Прямоугольник и круг" usemap="#Navigation"> </li>
+         <li><a href="about">ссылка 16</a></li>
+         <li><a href="about/1">ссылка 17</a></li>
+         <li><a href="../na_uroven_vishe"> ссылка 18 </a> </li>
+         <li><a href="../../na_2urovnya_vishe"> ссылка 18 </a> </li>
+         <li><a href="/" >ссылка 20</a></li>
+         <li><a href="/about">ссылка 21</a></li>
+      </ol>
+      <map name="Navigation">
+         <area shape="rect" coords="70,90,658,265" href="#rect" alt="Ссылка 15.1">
+         <area shape="circle" coords="880,180,105" href="#circle" alt="Ссылка 15.2">
+      </map>
+      <form action="/"
+         method="POST">
+         <label>
+         Имя:<br />
+         <input name="field-name-1"
+            value="" />
+         </label><br />
+         <label>
+         E-mail:<br />
+         <input name="field-email"
+            type="email"
+            placeholder="Введите вашу почту" />
+         </label><br />
+         <label>
+         Дата рождения:<br />
+         <input name="field-date"
+            value="2022-09-05"
+            type="date" />
+         </label><br />
+         Пол:<br />
+         <label><input type="radio" 
+            name="radio-group-1" value="male" />
+         Мужской</label>
+         <label><input type="radio"
+            name="radio-group-1" value="female" />
+         Женский</label><br />
+         Количество конечностей:<br />
+         <label><input type="radio" 
+            name="radio-group-2" value="2" />
+         2</label>
+         <label><input type="radio"
+            name="radio-group-2" value="4" />
+         4</label><br />
+         <label>
             Сверх способности:
             <br />
             <select name="field-name-2[]"
-              multiple="multiple">
-              <option value="immortality">бессмертие</option>
-              <option value="noclip" >прохождение сквозь стены</option>
-              <option value="gravity" selected="selected">левитцаия</option>
+               multiple="multiple">
+               <option value="immortality">бессмертие</option>
+               <option value="noclip" >прохождение сквозь стены</option>
+               <option value="gravity" selected="selected">левитцаия</option>
             </select>
-          </label><br />
-
-          <label>
-            Биография:<br />
-            <textarea name="field-name-3"></textarea>
-          </label><br />
-
-          
-      Чекбокс:<br />
-      <label><input type="checkbox" 
-        name="check-1" />
-        с контрактом ознакомлен (а) </label><br />
-
-    
-      <input type="submit" value="Отправить" />
-    </form>
-
-    </body>
+         </label>
+         <br />
+         <label>
+         Биография:<br />
+         <textarea name="field-name-3"></textarea>
+         </label><br />
+         Чекбокс:<br />
+         <label><input type="checkbox" 
+            name="check-1" />
+         с контрактом ознакомлен (а) </label><br />
+         <input type="submit" value="Отправить" />
+      </form>
+   </body>
 </html>
